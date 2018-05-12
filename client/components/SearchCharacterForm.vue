@@ -24,7 +24,7 @@
         },
         methods: {
             handleSearch () {
-                this.$store.dispatch('FETCH_CHARACTERS', this.name)
+                this.$store.dispatch('FETCH_CHATACTERS', this.name)
             }
         }
     }
